@@ -51,7 +51,8 @@ welcome();
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+/* An argument is a value that gets passed into the function parameters.
+ A parameter is a variable in the function declaration that receives the argument value for the problem.*/
 
 //////////////////PROBLEM 5////////////////////
 
@@ -61,7 +62,8 @@ welcome();
 
 
   //Answer Here
-
+/* The Javascript falsy values are false, 0 (zero), ""(empty string), null, undefined, and NaN. 
+To check if something is falsy you can use an function with an if statment in it. */
 
 
 //////////////////PROBLEM 6////////////////////
@@ -71,16 +73,22 @@ welcome();
 //Create a function called myName that returns your name
 
   //Code Here
-  
+  function myName(){
+    return "Austin";
+  }
+  myName();
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-
+function newMyName(){
+  return myName;
+}
+newMyName();
 //Now alert the result of invoking newMyName
 
-
+alert(newMyName());
 
 //////////////////PROBLEM 7////////////////////
 
