@@ -12,7 +12,7 @@ function isTyler(name){
     return false;
   }
 }
-isTyler(name);
+isTyler(name);  
 
 //////////////////PROBLEM 2////////////////////
 
@@ -26,7 +26,7 @@ isTyler(name);
     if (name === null || name === ""){
       return "user canceled window"
     }else{
-      return "Hello " + name + "!";
+      return name;
     }
   }
   getName();
@@ -38,7 +38,10 @@ isTyler(name);
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+function welcome(){
+  alert("Welcome, " +getName());
+}
+welcome();
 
 //////////////////PROBLEM 4////////////////////
 
